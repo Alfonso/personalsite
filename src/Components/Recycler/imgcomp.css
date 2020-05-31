@@ -1,0 +1,45 @@
+
+.animateImage{
+  width: 33%;
+  height: auto;
+}
+
+.animateImage[wobble='1']{
+  animation: slideRight 1s 1;
+  animation-fill-mode: forwards;
+}
+
+.animateImage[wobble='-1']{
+  animation: slideLeft 1s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideRight {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideLeft {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.hiddenImage{
+  width:33%;
+  height: auto;
+  display: none;
+}
+
+.hiddenImage[wobble='1']{
+  animation: slideRight 1s 1;
+  animation-fill-mode:forwards;
+  display: inline;
+}
+
+.hiddenImage[wobble='-1']{
+  animation: slideLeft 1s 1;
+  animation-fill-mode:forwards;
+  display: inline;
+}

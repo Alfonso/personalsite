@@ -1,0 +1,55 @@
+.recycler{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.imgContainerRight{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: none;
+  direction: ltr;
+}
+
+.imgContainerLeft{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: none;
+  direction: rtl;
+}
+
+.buttonStyle{
+  background:none;
+  border:none;
+  outline: none;
+  color:whitesmoke;
+}
+
+.buttonStyle i{
+  font-size: 1.5vw;
+}
+
+.buttonStyle:hover{
+  cursor: pointer;
+  color: rgb(119, 119, 119);
+}
+
+.buttonContainer{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
